@@ -10,7 +10,7 @@ body {
 
   background-image:    url(img_0538.jpg);
   background-size:     cover;                      /* <------ */
-  background-repeat:   no-repeat;
+  /*background-repeat:   no-repeat;*/
 
 }
 .container{
