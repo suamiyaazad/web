@@ -9,7 +9,7 @@ body {
   align-content:  center;
 
   background-image:    url(img_0538.jpg);
-  background-size:     cover;                      /* <------ */
+  /*background-size:     cover;      */                /* <------ */
   background-repeat:   space;
 
 }
