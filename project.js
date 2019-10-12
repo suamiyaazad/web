@@ -3,18 +3,14 @@ var player2Color = 'rgb(0,180,0)';
 var game_on = true;
 var table = $('table tr');
 function reportWin(num) {
-  //$('p').text("Player "+num+" has won!").fadeIn('slow');
 
-  /*My taaha is sexy. I wanna fuck her so hard that she is gonna feel sooo satisfied. */
   $('p').html("<span class=\"w3-animate-opacity\">"+"Player "+num+" has won!"+"</span>");
   $('td').unbind(); //Whatever the result may be, no symbols will be allowed to put on the squares after finishing a game unless the page is reloaded and a new game will start. 
 
 }
 function changeText(rowIndex,colIndex,txt,color) {
   
-  //table.eq(rowIndex).find('td').eq(colIndex).text(txt).css('color',color).fadeIn(5000);
 
-  /*My taaha is sexy. I wanna fuck her so hard that she is gonna feel sooo satisfied. */
   table.eq(rowIndex).find('td').eq(colIndex).html("<span class=\"w3-animate-opacity\">"+txt+"</span>").css('color',color);
 }
 function returnText(rowIndex,colIndex) {
@@ -90,23 +86,15 @@ $('td').click(function(){
       if(c===0)
       { if(checkTd(0,0)!==0 && checkTd(0,1)!==0 && checkTd(0,2)!==0 && checkTd(1,0)!==0 && checkTd(1,1)!==0 && checkTd(1,2)!==0 && checkTd(2,0)!==0 && checkTd(2,1)!==0 && checkTd(2,2)!==0){
           
-        //$('p').text("It's a draw");
-          
-          /*My taaha is sexy. I wanna fuck her so hard that she is gonna feel sooo satisfied. */
+
           $('p').html("<span class=\"w3-animate-opacity\">"+"It's a draw"+"</span>");
           $('td').unbind(); //Whatever the result may be, no symbols will be allowed to put on the squares after finishing a game unless the page is reloaded and a new game will start. 
 
         }else if(currentPlayer===1){
 
-          //$('p').text("Player 1\'s turn");
-
-          /*My taaha is sexy. I wanna fuck her so hard that she is gonna feel sooo satisfied. */
           $('p').html("<span class=\"w3-animate-opacity\">"+"Player 1\'s turn"+"</span>");
         }else if(currentPlayer===-1){
 
-        //$('p').text("Player 2\'s turn");
-
-        /*My taaha is sexy. I wanna fuck her so hard that she is gonna feel sooo satisfied. */
         $('p').html("<span class=\"w3-animate-opacity\">"+"Player 2\'s turn"+"</span>");
       }
       }
