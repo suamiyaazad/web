@@ -1,0 +1,38 @@
+Marks distribution->
+____________________________________________________________________________________
+CSS:
+____________________________________________________________________________________
+1) Adjustments and spacing between the elements- 3/5
+#Nice Top bar
+#Nice table
+#Nice notification
+#Bad alignment
+#Did not specify table cell width
+____________________________________________________________________________________
+2) Colors - 4/5
+#Everything was ok except the color of 'Home' link
+____________________________________________________________________________________
+3) Animations - 1/5
+#You were supposed to add animations on the notification and on the 'X'/'O' marks.
+____________________________________________________________________________________
+
+
+____________________________________________________________________________________
+JS:
+____________________________________________________________________________________
+1) Game logic - 10/10
+#Everything is ok here. Thanku you babyyyy :*
+____________________________________________________________________________________
+2) Changing the notification and putting the symbols - 4/5
+#Everything was ok except that you forgot to unlink the onclick listener.
+____________________________________________________________________________________
+
+
+Total -> 22/30 marks
+
+8 marks will be gifted because you are my cutie bou pakhi :*
+
+Final total = 22+8 = 30
+
+You have recieved 30 out of 30.
+Congratulations amar juicy oporajitar Boupakhi !!!!!!!!!
